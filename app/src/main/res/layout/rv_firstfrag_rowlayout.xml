@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/rv_firstfragment_imgrow"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_chevron_right"/>
+    <TextView
+        android:id="@+id/rv_firstfragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="8dp"/>
+       <LinearLayout
+           android:layout_marginTop="4dp"
+           android:layout_marginStart="8dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <ImageView
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:src="@drawable/icons8clock50"/>
+           <TextView
+               android:id="@+id/rv_firstfragment_time"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Title"
+               android:textColor="@color/black"
+               android:layout_marginLeft="4dp"/>
+       </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icons8clock50"/>
+            <TextView
+                android:id="@+id/rv_firstfragment_porsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4 porsi"
+                android:textColor="@color/black"
+                android:layout_marginLeft="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
